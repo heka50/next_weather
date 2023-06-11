@@ -5,7 +5,7 @@ import styles from "@/styles/Home.module.css";
 import { getLondonWeather } from "@/lib/weather.js";
 const inter = Inter({ subsets: ["latin"] });
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const weatherData = await getLondonWeather();
   return {
     props: {
