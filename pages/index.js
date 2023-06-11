@@ -27,6 +27,7 @@ export default function Home(props) {
         <h1>
           The Current Weather in london is {props.weatherData.main.temp} °C
         </h1>
+        <h2>This is defintiely Correct Weather lol</h2>
       </main>
     </>
   );
