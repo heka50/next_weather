@@ -14,7 +14,6 @@ export async function getServerSideProps() {
   };
 }
 export default function Home(props) {
-  console.log(getLondonWeather());
   return (
     <>
       <Head>
